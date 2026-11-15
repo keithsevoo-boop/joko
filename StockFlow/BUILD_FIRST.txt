@@ -1,0 +1,28 @@
+STOCKFLOW - FIRST BUILD (READ THIS FIRST)
+
+1. Keep your old StockFlow app and its data. Do not delete:
+   %LOCALAPPDATA%\StockFlow
+
+2. Install Python 3.12 (64-bit) and make sure "Python Launcher" is selected.
+
+3. Install JDK 17 (64-bit). Java 21/25 is not suitable for this project's
+   Android build. Set Windows JAVA_HOME to the JDK 17 installation folder.
+
+4. Open Android Studio -> More Actions -> SDK Manager.
+   In SDK Platforms, install Android 15.0 / API 35.
+   In SDK Tools, install Android SDK Build-Tools 35.0.0.
+
+5. Extract this whole StockFlow folder to a normal folder such as:
+   C:\StockFlow
+   Do not run it from inside the ZIP file.
+
+6. Double-click build_windows.bat and wait. The first build needs internet.
+   It creates:
+   dist\StockFlow.exe
+   dist\StockFlow-Scanner.apk
+
+7. If it stops, take a screenshot of the command window including the
+   last error lines and send it. Do not close the window before reading it.
+
+The APK is a debug/testing APK for direct phone installation. It is not
+a Play Store release build.
